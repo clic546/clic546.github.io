@@ -1,0 +1,722 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.palka {
+    position: relative;
+    width: 2px;
+    height: 45px;
+    background: grey;
+}
+.palka2 {
+    width: auto;
+    height: 1px;
+    background: grey;
+    margin-top: 50px;
+}
+.os {
+    position: relative;
+    left: 250px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 30px;
+}
+.photo2 {
+    background: url("Vector.png") center center no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 25px;
+    transition: 0.8s;
+    position: relative;
+    left: -5px;
+}
+.photo2:hover {
+    background: url("1122.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.photo3 {
+    transition: 0.7s;
+    background: url("instagram (1) 1.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.photo3:hover {
+    width: 27px;
+    height: 27px;
+    background: url("aqq.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.4);
+}
+.photo4 {
+    transition: 0.8s;
+    background: url("2.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 18px;
+    position: relative;
+    left: 5px;
+}
+.photo4:hover {
+    background: url("22.jpg") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.photo5 {
+    background: url("smartphone 1.png") center center no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: 13px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.photo5:hover {
+    background: url("asd.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.05);
+}
+.photo6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 13px;
+}
+.photo7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+.ukr {
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 19px;
+    background: rgb(0, 153, 255);
+    color: rgb(255, 255, 255);
+    width: 45px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    border-radius:10% ;
+    position: relative;
+    top: -1px;
+}
+.ukr:hover {
+    transform: scale(1.05);
+    color: yellow;
+    background: blue;
+}
+.rus {
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 19px;
+    color: white;
+    width: 45px;
+    height: 25px;
+    background: rgb(8, 196, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 2px;
+    border-radius:10% ;
+}
+.rus:hover {
+    transform: scale(1.05);
+    color: rgb(255, 0, 0);
+    background: rgb(255, 251, 0);
+}
+.usd {
+    font-size: 20px;
+}
+.eur {
+    font-size: 20px;
+}
+.znaki {
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -15px;
+}
+.telephon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nomer { 
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.vtotele {
+    position: relative;
+    top: 10px;
+}
+.nazva1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 240px;
+    height: 50px;
+}
+.vedi {
+    border: transparent;
+    width: 190px;
+    height: 50px;
+    color: #373737;
+    padding:23px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size:16px;
+    background: #EFF3F6;
+}
+.MA {
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+.poisk1 {
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 69, 69);
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+.poisk1:hover {
+    background: red;
+}
+.poisk2 {
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+    background: rgb(59, 212, 39);
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+.poisk2:hover {
+    background: rgb(0, 255, 0);
+}
+h1 {
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+    left: -18px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+.os2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1540px;
+    position: relative;
+    top: 25px;
+    left: 200px;
+}
+.lupa {
+    cursor: pointer;
+    transition: 0.6s;
+}
+.lupa:hover {
+    transform: scale(1.1);
+}
+.men {
+    outline: none;
+    color: grey;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+.men:hover {
+    color: black;
+    transform: scale(1.05);
+}
+.block1 {
+    display: inline-block;
+    position: relative;
+}
+.block12 {
+    display: none;
+    position: absolute;
+    min-width: 260px;
+    z-index: 1;
+    background: white;
+    left: -10px;
+    top: 21px;
+}
+.block12 a {
+    float: none;
+    font-weight: 400;
+    font-family: sans-serif;
+    border: 1px solid rgb(219, 219, 219);
+    color: grey;
+    font-size: 14px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.block1:hover .block12 {
+    display: block;
+}
+.block12 a:hover {
+    color: indianred;
+    border:1px solid indianred;
+    font-size: 15px;
+}
+.os3 {
+    height: 400px;
+    width: auto;
+}
+.mein {
+    color: rgb(161, 161, 161);
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 35px;
+    left: 120px;
+    width: 400px;
+    font-size: 18px;
+}
+strong {
+    color: rgb(71, 71, 71);
+    font-weight: 400;
+}
+.trak {
+    width:350px;
+    font-size: 46px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 75px;
+    position: relative;
+    left: 120px;
+    top: 130px;
+}
+.country {
+    background: url("country.png") center center no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 530px;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    z-index: 0;
+}
+.vubor{
+    width:800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1250px;
+    position: relative;
+    left: 750px;
+    top: -650px;
+}
+.vub1 {
+    width: 1000px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.vub1:hover {
+    transform: scale(1.02);
+}
+.vub {
+    width: 1000px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.vub:hover {
+    transform: scale(1.05);
+}
+.nomer2 {
+    width: 30px;
+    height: 33px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #DD4053;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+    position: relative;
+    top: 37px;
+    left: 22px;
+}
+.strelka2 {
+    background: url("strelka2.png") center center no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 40px;
+    position: relative;
+    left: 970px;
+    top: -30px;
+}
+.year {
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 800px;
+    color: grey;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    line-height: 33px;
+}
+.city {
+    font-size: 20px;
+    font-family: fantasy;
+    position: relative;
+    left: 20px;
+    top: -3px;
+    color: black;
+}
+.kvadrats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85px;
+    position: relative;
+    left: 20px;
+    top: 35px;
+}
+.kvadrat {
+    width: 8px;
+    height: 8px;
+    background: #DD4053;
+}
+.dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    position: relative;
+    left: 70px;
+    top: -59px;
+}
+.data {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(161, 161, 161);
+}
+.box {
+    background: rgba(243, 243, 243, 0.781);
+    width: 900px;
+    height: 210px;
+    position: relative;
+    left: 15px;
+    top: -30px;
+}
+.text1 {
+    color: rgb(73, 73, 73);
+    font-size: 21px;
+    font-family: fantasy;
+    position: relative;
+    top: 25px;
+    left: 45px;
+}
+.palkax {
+    width: 800px;
+    height: 1px;
+    border: 1px solid rgb(236, 236, 236);
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90px;
+    position: relative;
+    top: 55px;
+    left: 45px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: rgb(148, 148, 148);
+}
+.vips {
+    border: 2px solid rgb(216, 216, 216);
+    height: 280px;
+    width: 900px;
+    position: relative;
+    left: 15px;
+    top: -10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: fantasy;
+    color: rgb(141, 141, 141);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 0 20px 40px;
+}
+.viprus {
+    color: black;
+}
+.trancfer {
+    width: 700px;
+}
+.knopca1 {
+    background: #DD4053;
+    width: 350px;
+    height: 70px;
+    color: white;
+    position: relative;
+    left: 15px;
+    top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    transition: 0.6s;
+}
+.knopca1:hover {
+    background: transparent;
+    border: 2px solid #DD4053;
+    color: #DD4053;
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 63px -9px rgba(212, 53, 53, 0.39);
+    -moz-box-shadow: 0px 0px 63px -9px rgba(212, 53, 53, 0.39);
+    box-shadow: 0px 0px 63px -9px rgba(212, 53, 53, 0.39);
+}
+.knopca2 {
+    border: 2px solid #DD4053;
+    width: 350px;
+    height: 70px;
+    color: #DD4053;
+    position: relative;
+    left: 450px;
+    top: -35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    transition: 0.6s;
+}
+.knopca2:hover {
+    background: #DD4053;
+    border: 2px solid transparent;
+    color: white;
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 63px -9px rgba(212, 53, 53, 0.39);
+    -moz-box-shadow: 0px 0px 63px -9px rgba(212, 53, 53, 0.39);
+    box-shadow: 0px 0px 63px -9px rgba(212, 53, 53, 0.39);
+}
+.nomer1 {
+    width: 30px;
+    height: 33px;
+    font-size: 23px;
+    font-weight: 600;
+    background: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+    position: relative;
+    top: 37px;
+    left: 30px;
+    color: black;
+}
+.text {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 75px;
+    color: black;
+}
+.strelka {
+    background: url("aaw.png") center center no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 40px;
+    position: relative;
+    left: 970px;
+    top: -30px;
+}
+.palka12 {
+    width: 1050px;
+    border: 1px;
+    height: 1px;
+    background: grey;
+}
+.os10 {
+    background: rgba(236, 236, 236, 0.329);
+    height: 514px;
+    width: auto;
+    position: relative;
+    top: 1150px;
+    padding: -40px 0 0 0;
+}
+.x {
+    background: url(x.png) center center no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 110px;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    transition: 0.7s;
+}
+.x:hover {
+    transform: scale(1.2);
+}
+.spisok {
+    color: rgb(110, 110, 110);
+    font-weight:400;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    left: 600px;
+    top: 40px;
+    width: 200px;
+}
+.spisok2 {
+    color: rgb(110, 110, 110);
+    font-weight:400;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    left: 870px;
+    top: -85px;
+    width: 200px;
+}
+.rezum {
+    font-size: 15px;
+    color: rgb(199, 199, 199);
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: -170px;
+    left: 1100px;
+    width: 200px;
+}
+.raspisanie {
+    width: 200px;
+    color: rgb(110, 110, 110);
+    font-weight:600;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    top: -150px;
+    left: 1100px;
+}
+.zvoni {
+    width: 300px;
+    color: rgb(110, 110, 110);
+    font-weight:600;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.8;
+    position: relative;
+    top: -220px;
+    left: 1430px;
+}
+.kontakt {
+    width: 200px;
+    font-size: 16px;
+    color: rgb(199, 199, 199);
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: -200px;
+    left: 1430px;
+}
+.palka1234 {
+    width: 1430px;
+    height: 0.1px;
+    border:0.1px solid rgb(214, 214, 214);
+    position: relative;
+    top: -130px;
+    left: 200px;
+}
+.twozero {
+    width: 400px;
+    font-size: 17px;
+    color: rgb(199, 199, 199);
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: -95px;
+    left: 200px;
+}
+.label {
+    width: 130px;
+    position: relative;
+    top: -120px;
+    left: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.xxxx {
+    transition: 0.8s;
+    background: url("2.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 18px;
+}
+.xxxx:hover{
+    background: url("22.jpg") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.xx {
+    background: url("Vector.png") center center no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 25px;
+    transition: 0.8s;
+}
+.xx:hover {
+    background: url("1122.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.xxx {
+    background: url("instagram (1) 1.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    transition: 0.8s
+}
+.xxx:hover {
+    width: 27px;
+    height: 27px;
+    background: url("aqq.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.4);
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover {
+    color: black;
+}
