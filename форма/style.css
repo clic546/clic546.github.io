@@ -1,0 +1,731 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.palka {
+    position: relative;
+    width: 2px;
+    height: 45px;
+    background: grey;
+}
+.palka2 {
+    width: auto;
+    height: 1px;
+    background: grey;
+    margin-top: 50px;
+}
+.os {
+    position: relative;
+    left: 250px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 30px;
+}
+.photo2 {
+    background: url("Vector.png") center center no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 25px;
+    transition: 0.8s;
+    position: relative;
+    left: -5px;
+}
+.photo2:hover {
+    background: url("1122.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.photo3 {
+    transition: 0.7s;
+    background: url("instagram (1) 1.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.photo3:hover {
+    width: 27px;
+    height: 27px;
+    background: url("aqq.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.4);
+}
+.photo4 {
+    transition: 0.8s;
+    background: url("2.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 18px;
+    position: relative;
+    left: 5px;
+}
+.photo4:hover {
+    background: url("22.jpg") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.photo5 {
+    background: url("smartphone 1.png") center center no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: 13px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.photo5:hover {
+    background: url("asd.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.05);
+}
+.photo6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 13px;
+}
+.photo7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+.ukr {
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 19px;
+    background: rgb(0, 153, 255);
+    color: rgb(255, 255, 255);
+    width: 45px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    border-radius:10% ;
+    position: relative;
+    top: -1px;
+}
+.ukr:hover {
+    transform: scale(1.05);
+    color: yellow;
+    background: blue;
+}
+.rus {
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 19px;
+    color: white;
+    width: 45px;
+    height: 25px;
+    background: rgb(8, 196, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 2px;
+    border-radius:10% ;
+}
+.rus:hover {
+    transform: scale(1.05);
+    color: rgb(255, 0, 0);
+    background: rgb(255, 251, 0);
+}
+.usd {
+    font-size: 20px;
+}
+.eur {
+    font-size: 20px;
+}
+.znaki {
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -15px;
+}
+.telephon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nomer { 
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.vtotele {
+    position: relative;
+    top: 10px;
+}
+.nazva1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 240px;
+    height: 50px;
+}
+.vedi {
+    border: transparent;
+    width: 190px;
+    height: 50px;
+    color: #373737;
+    padding:23px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size:16px;
+    background: #EFF3F6;
+}
+.MA {
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+.poisk1 {
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 69, 69);
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+.poisk1:hover {
+    background: red;
+}
+.poisk2 {
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+    background: rgb(59, 212, 39);
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+.poisk2:hover {
+    background: rgb(0, 255, 0);
+}
+h1 {
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+    left: -18px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+.os2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1540px;
+    position: relative;
+    top: 25px;
+    left: 200px;
+}
+.lupa {
+    cursor: pointer;
+    transition: 0.6s;
+}
+.lupa:hover {
+    transform: scale(1.1);
+}
+.men {
+    outline: none;
+    color: grey;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+.men:hover {
+    color: black;
+    transform: scale(1.05);
+}
+.block1 {
+    display: inline-block;
+    position: relative;
+}
+.block12 {
+    display: none;
+    position: absolute;
+    min-width: 260px;
+    z-index: 1;
+    background: white;
+    left: -10px;
+    top: 21px;
+}
+.block12 a {
+    float: none;
+    font-weight: 400;
+    font-family: sans-serif;
+    border: 1px solid rgb(219, 219, 219);
+    color: grey;
+    font-size: 14px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.block1:hover .block12 {
+    display: block;
+}
+.block12 a:hover {
+    color: indianred;
+    border:1px solid indianred;
+    font-size: 15px;
+}
+.os3 {
+    height: 600px;
+}
+.mai {
+    color: rgb(170, 170, 170);
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+    left: 120px;
+    width: 100px;
+}
+.konta {
+    color: rgb(61, 61, 61);
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 13px;
+    left: 195px;
+    width: 100px;
+}
+.rata {
+    color: black;
+    font-size: 47px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 230px;
+    top: 150px;
+    width: 500px;
+}
+.adres {
+    color: rgb(170, 170, 170);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left: 230px;
+    top: 220px;
+    width: 100px;
+}
+.adress {
+    color: rgb(65, 65, 65);
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 230px;
+    top: 250px;
+    width: 1000px;
+}
+.faks {
+    color: rgb(170, 170, 170);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left: 230px;
+    top: 310px;
+    width: 300px;
+}
+.nomerr {
+    color: rgb(126, 126, 126);
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    position: relative;
+    top: 345px;
+    left: 230px;
+    width: 500px;
+}
+.nomer {
+    color: black;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+.regum {
+    width: 200px;
+    color: rgb(170, 170, 170);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: 400px;
+    left: 230px;
+}
+.pn {
+    width: 500px;
+    color: rgb(92, 92, 92);
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    left: 230px;
+    top: 425px;
+}
+.forma {
+    width: 650px;
+    height: 650px;
+    position: relative;
+    left: 1000px;
+    top: -130px;
+    background:#F8F8F8;
+}
+.found {
+    color: #323232;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 115px;
+    top: 25px;
+}
+.name {
+    width: 500px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    border: 0.5px solid grey;
+    padding: 25px;
+    font-size: 25px;
+    color: rgb(61, 61, 61);
+    position: relative;
+    left: 65px;
+    top: 30px;
+}
+fieldset {
+    border: transparent;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.final {
+    background: #DD4053;
+    width: 500px;
+    height: 80px;
+    color: white;
+    position: relative;
+    left: 65px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: sans-serif;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.final:hover {
+    transform: scale(1.05);
+    color:#DD4053;
+    border: 3px solid #DD4053;
+    background: transparent;
+    -webkit-box-shadow: 0px 0px 59px -12px rgba(255, 255, 255, 0.47);
+-moz-box-shadow: 0px 0px 59px -12px rgba(255, 255, 255, 0.47);
+box-shadow: 0px 0px 59px -12px rgba(255, 255, 255, 0.47);
+}
+.os4 {
+    height: 630px;
+    width: auto;
+    position: relative;
+    top: 300px;
+}
+.karta {
+    background: url("qwe.png") center center no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 630px;
+}
+.metka {
+    position: relative;
+    left: 905px;
+    top: -380px;
+    width: 100px;
+    transition: 0.6s;
+}
+.metka:hover {
+    transform: scale(1.1);
+}
+.os5 {
+    height: 1000px;
+    width: auto;
+    position: relative;
+    top: 300px;
+}
+.our {
+    width: 400px;
+    color: rgb(56, 56, 56);
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 160px;
+    left: 120px;
+}
+.spisok11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+    position: relative;
+    left: 940px;
+    top: 120px;
+}
+.ad {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(189, 189, 189);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ad:hover {
+    color: black;
+    transform: scale(1.1);
+}
+.palka111 {
+    border: 1px solid rgb(212, 212, 212);
+    width: 1680px;
+    position: relative;
+    top: 180px;
+    left: 120px;
+}
+.kto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 235px;
+    left: -200px;
+}
+
+.name2 {
+    color: rgb(56, 56, 56);
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 310px;
+    top: -210px;
+}
+.opisanie {
+    color: #575757;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 320px;
+    position: relative;
+    left: 310px;
+    top: -190px;
+}
+.sulka {
+    color: #323232;
+    font-size: 23px;
+    font-family: sans-serif;
+    position: relative;
+    left: 310px;
+    top: -110px;
+    transition: 0.6s;
+}
+.sulka:hover {
+    transform: scale(1.05);
+    color: rgb(0, 132, 255);
+}
+.bloc {
+    position: relative;
+    left: -50px;
+}
+.palki {
+    width: 1810px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.palka112 {
+    border: 1px solid rgb(212, 212, 212);
+    width: 800px;
+    position: relative;
+    top: 200px;
+    left: 60px;
+}
+.img {
+    transition: 0.5s;
+}
+.img:hover {
+    transform: scale(1.1);
+}
+.os6 {
+    background: rgba(236, 236, 236, 0.329);
+    position: relative;
+    top: 600px;
+}
+.x {
+    background: url(x.png) center center no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 110px;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    transition: 0.7s;
+}
+.x:hover {
+    transform: scale(1.2);
+}
+.spisok {
+    color: rgb(110, 110, 110);
+    font-weight:400;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    left: 600px;
+    top: 40px;
+    width: 200px;
+}
+.spisok2 {
+    color: rgb(110, 110, 110);
+    font-weight:400;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    left: 870px;
+    top: -85px;
+    width: 200px;
+}
+.rezum {
+    font-size: 15px;
+    color: rgb(199, 199, 199);
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: -170px;
+    left: 1100px;
+    width: 200px;
+}
+.raspisanie {
+    width: 200px;
+    color: rgb(110, 110, 110);
+    font-weight:600;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    top: -150px;
+    left: 1100px;
+}
+.zvoni {
+    width: 300px;
+    color: rgb(110, 110, 110);
+    font-weight:600;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.8;
+    position: relative;
+    top: -220px;
+    left: 1430px;
+}
+.kontakt {
+    width: 200px;
+    font-size: 16px;
+    color: rgb(199, 199, 199);
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: -200px;
+    left: 1430px;
+}
+.palka1234 {
+    width: 1430px;
+    height: 0.1px;
+    border:0.1px solid rgb(214, 214, 214);
+    position: relative;
+    top: -130px;
+    left: 200px;
+}
+.twozero {
+    width: 400px;
+    font-size: 17px;
+    color: rgb(199, 199, 199);
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: -95px;
+    left: 200px;
+}
+.label {
+    width: 130px;
+    position: relative;
+    top: -120px;
+    left: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.xxxx {
+    transition: 0.8s;
+    background: url("2.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 18px;
+}
+.xxxx:hover{
+    background: url("22.jpg") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.xx {
+    background: url("Vector.png") center center no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 25px;
+    transition: 0.8s;
+}
+.xx:hover {
+    background: url("1122.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.xxx {
+    background: url("instagram (1) 1.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    transition: 0.8s
+}
+.xxx:hover {
+    width: 27px;
+    height: 27px;
+    background: url("aqq.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.4);
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
