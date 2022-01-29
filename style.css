@@ -1,0 +1,1703 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.palka {
+    position: relative;
+    width: 2px;
+    height: 45px;
+    background: grey;
+}
+.palka2 {
+    width: auto;
+    height: 1px;
+    background: grey;
+    margin-top: 50px;
+}
+.os {
+    position: relative;
+    left: 250px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 30px;
+}
+.photo2 {
+    background: url("Vector.png") center center no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 25px;
+    transition: 0.8s;
+    position: relative;
+    left: -5px;
+}
+.photo2:hover {
+    background: url("1122.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.photo3 {
+    transition: 0.7s;
+    background: url("instagram (1) 1.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.photo3:hover {
+    width: 27px;
+    height: 27px;
+    background: url("aqq.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.4);
+}
+.photo4 {
+    transition: 0.8s;
+    background: url("2.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 18px;
+    position: relative;
+    left: 5px;
+}
+.photo4:hover {
+    background: url("22.jpg") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.photo5 {
+    background: url("smartphone 1.png") center center no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: 13px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.photo5:hover {
+    background: url("asd.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.05);
+}
+.photo6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 13px;
+}
+.photo7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+.ukr {
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 19px;
+    background: rgb(0, 153, 255);
+    color: rgb(255, 255, 255);
+    width: 45px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    border-radius:10% ;
+    position: relative;
+    top: -1px;
+}
+.ukr:hover {
+    transform: scale(1.05);
+    color: yellow;
+    background: blue;
+}
+.rus {
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 19px;
+    color: white;
+    width: 45px;
+    height: 25px;
+    background: rgb(8, 196, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 2px;
+    border-radius:10% ;
+}
+.rus:hover {
+    transform: scale(1.05);
+    color: rgb(255, 0, 0);
+    background: rgb(255, 251, 0);
+}
+.usd {
+    font-size: 20px;
+}
+.eur {
+    font-size: 20px;
+}
+.znaki {
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -15px;
+}
+.telephon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nomer { 
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.vtotele {
+    position: relative;
+    top: 10px;
+}
+.nazva1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 240px;
+    height: 50px;
+}
+.vedi {
+    border: transparent;
+    width: 190px;
+    height: 50px;
+    color: #373737;
+    padding:23px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size:16px;
+    background: #EFF3F6;
+}
+.MA {
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+.poisk1 {
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 69, 69);
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+.poisk1:hover {
+    background: red;
+}
+.poisk2 {
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+    background: rgb(59, 212, 39);
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+.poisk2:hover {
+    background: rgb(0, 255, 0);
+}
+h1 {
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+    left: -18px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+.os2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1540px;
+    position: relative;
+    top: 25px;
+    left: 200px;
+}
+.lupa {
+    cursor: pointer;
+    transition: 0.6s;
+}
+.lupa:hover {
+    transform: scale(1.1);
+}
+.men {
+    outline: none;
+    color: grey;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+.men:hover {
+    color: black;
+    transform: scale(1.05);
+}
+.block1 {
+    display: inline-block;
+    position: relative;
+}
+.block12 {
+    display: none;
+    position: absolute;
+    min-width: 260px;
+    z-index: 1;
+    background: white;
+    left: -10px;
+    top: 21px;
+}
+.block12 a {
+    float: none;
+    font-weight: 400;
+    font-family: sans-serif;
+    border: 1px solid rgb(219, 219, 219);
+    color: grey;
+    font-size: 14px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.block1:hover .block12 {
+    display: block;
+}
+.block12 a:hover {
+    color: indianred;
+    border:1px solid indianred;
+    font-size: 15px;
+}
+.os3 {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.37%, #000000e5 100%) , url("1.png") center center no-repeat;
+    background-size: cover;
+    height: 630px;
+    position: relative;
+    top: 50px;
+}
+.sug {
+    font-family: sans-serif;
+    font-size: 23px;
+    color: white;
+    border: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 250px;
+    transition: 0.6s;
+}
+.vel {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 755px;
+    height: 102px;
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+.sl {
+    font-family: sans-serif;
+    font-size: 22px;
+    width: 270px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.281);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 250px;
+    top: 210px;
+    transition: 0.5s;
+}
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+    position: relative;
+    top: 280px;
+    left: 250px;
+}
+.os4 {
+    background: rgb(243, 243, 243);
+    position: relative;
+    top: 50px;
+    width: auto;
+    height: 350px;
+}
+.vash {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 650px;
+    position: relative;
+    left: 250px;
+    top: 40px;
+}
+.open {
+    width: 700px;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: rgba(150, 150, 150, 0.842);
+    position: relative;
+    left: 250px;
+    top: 60px;
+}
+.what {
+    width: 300px;
+    height: 60px;
+    background-color: rgba(161, 161, 161, 0.863);
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 250px;
+    top: 100px;
+    transition: 0.5s;
+}
+.konsult {
+    width: 250px;
+    height: 60px;
+    border: 2px solid grey;
+    color: grey;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    left: 600px;
+    transition: 0.5s;
+}
+.picture1 {
+    background: url("4.png") center center no-repeat;
+    background-size: 30px ;
+    width: 60px;
+    height: 60px;
+    border: 2px dashed rgb(212, 212, 212);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+.picture1:hover {
+    transform: scale(1.2);
+    border: 2px dashed indianred;
+}
+.picture2 {
+    background: url("5.png") center center no-repeat;
+    background-size: 30px ;
+    width: 60px;
+    height: 60px;
+    border: 2px dashed rgb(212, 212, 212);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.picture2:hover {
+    transform: scale(1.2);
+    border: 2px dashed indianred;
+}
+.picture3 {
+    background: url("6.png") center center no-repeat;
+    background-size: 30px ;
+    width: 60px;
+    height: 60px;
+    border: 2px dashed rgb(212, 212, 212);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.picture3:hover {
+    transform: scale(1.2);
+    border: 2px dashed indianred;
+}
+.gr {
+    width: auto;
+    height: 250px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: 1150px;
+    top: -200px;
+}
+.tochka {
+    width: 10px;
+    height: 10px;
+    border: 0.1px solid grey;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.gro {
+    width: 370px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: 1270px;
+    top: -265px;
+}
+.h {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.what:hover {
+    border: 2px solid grey;
+    color: grey;
+    background: transparent;
+    cursor: pointer;
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.36);
+}
+.konsult:hover {
+    border: transparent;
+    background-color: rgba(161, 161, 161, 0.863);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.36);
+}
+.picture:hover {
+    border: transparent;
+    background: rgb(0, 0, 0);
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 45px 5px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 0px 45px 5px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 0px 45px 5px rgba(0, 0, 0, 0.36);
+}
+.sl:hover {
+    background: rgba(255, 255, 255, 0.63);
+    color: black;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 57px 0px rgba(255, 255, 255, 0.37);
+    -moz-box-shadow: 0px 0px 57px 0px rgba(255, 255, 255, 0.37);
+    box-shadow: 0px 0px 57px 0px rgba(255, 255, 255, 0.37);
+    transform: scale(1.1);
+}
+.tochka:hover{
+    cursor: pointer;
+    background: white;
+    transform: scale(1.1);
+    border: 0.1px solid white;
+}
+.sug:hover {
+    cursor: pointer;
+    color: grey;
+    border: transparent;
+    background: white;
+    -webkit-box-shadow: 0px 0px 57px 0px rgba(255, 255, 255, 0.37);
+    -moz-box-shadow: 0px 0px 57px 0px rgba(255, 255, 255, 0.37);
+    box-shadow: 0px 0px 57px 0px rgba(255, 255, 255, 0.37);
+    transform: scale(1.05);
+}
+.os5 {
+    width: auto;
+    height: 1450px;
+}
+.better {
+    width: 700px;
+    font-size: 56px;
+    font-family: sans-serif;
+    font-weight: 200;
+    position: relative;
+    top: -110px;
+    left: 400px;
+}
+.palka3 {
+    width: 280px;
+    height: 1px;
+    border:2px solid rgb(97, 97, 97);
+    position: relative;
+    top: -150px;
+    left: 925px;
+}
+.all {
+    width: 160px;
+    height: 55px;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: grey;
+    position: relative;
+    top: -180px;
+    left: 1300px;
+    transition: 0.7s;
+}
+.all:hover {
+    cursor: pointer;
+    border: transparent;
+    color: white;
+    background: grey;
+    -webkit-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.22);
+    transform: scale(1.1);
+}
+.karman {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 1.37%, #000000e5 100%) , url("12.png") center center no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 530px;
+}
+.karman1 {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 1.37%, #000000e5 100%) , url("111.png") center center no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 530px;
+}
+.karman2 {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 1.37%, #000000e5 100%) , url("121.png") center center no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 530px;
+}
+.na {
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.349);
+    position: relative;
+    top: 20px;
+    transition: 0.7s;
+}
+.na:hover {
+    background: rgba(255, 255, 255, 0.384);
+    color: black;
+    -webkit-box-shadow: 18px 0px 60px -3px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 18px 0px 60px -3px rgba(0, 0, 0, 0.37);
+    box-shadow: 18px 0px 60px -3px rgba(0, 0, 0, 0.37);
+}
+.zv {
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 180px;
+    left: 216px;
+}
+.zve {
+    transition: 0.6s;
+}
+.ones {
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 210px;
+    left: 140px;
+    width: 320px;
+}
+.zve:hover {
+    cursor: pointer;
+    transform:  scale(1.3);
+}
+.ph {
+    position: relative;
+    top: -80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.all1 {
+    width: 160px;
+    height: 55px;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: grey;
+    transition: 0.7s;
+    position: relative;
+    top: -60px;
+    left: 1350px;
+}
+.all1:hover {
+    cursor: pointer;
+    border: transparent;
+    color: white;
+    background: grey;
+    -webkit-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.22);
+    transform: scale(1.1);
+}
+.palka31 {
+    width: 280px;
+    height: 1px;
+    border:2px solid rgb(97, 97, 97);
+    position: relative;
+    top: -35px;
+    left: 1000px;
+}
+.aktu {
+    width: 700px;
+    font-size: 56px;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: relative;
+    left: 400px;
+}
+.bloc1 {
+    width: 370px;
+    height:565px;
+    background: rgb(241, 241, 241);
+}
+.part1 {
+    background: rgb(0,0,0);
+    background:  url("a.png") center center no-repeat;
+    background-size: cover;
+    height: 330px;
+}
+.naa {
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.349);
+    position: relative;
+    top: 20px;
+    transition: 0.7s;
+}
+.naa:hover {
+    background: rgba(255, 255, 255, 0.384);
+    color: black;
+    -webkit-box-shadow: 18px 11px 60px -7px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 18px 11px 60px -7px rgba(0, 0, 0, 0.37);
+    box-shadow: 18px 11px 60px -7px rgba(0, 0, 0, 0.37);
+}
+.ones1 {
+    width: 300px;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+.ones2 {
+    margin-top: -29px;
+    width: 300px;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.pervu {
+    color: rgb(168, 168, 168);
+    font-size: 19px;
+    font-family: sans-serif;
+    position: relative;
+    top: 65px;
+    left: 20px;
+    height: auto;
+    width: 330px;
+}
+.ot {
+    color: indianred;
+    font-size: 17px;
+    font-family: sans-serif;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.cash {
+    width: 60px;
+    color: indianred;
+    font-size: 25px;
+    position: relative;
+    left: 45px;
+    top: 82px;
+    transition: 1s;
+    cursor: pointer;
+}
+.cash:hover {
+    transform: scale(1.01);
+    color: rgb(231, 14, 14);
+}
+.for {
+    color: rgb(194, 194, 194);
+    font-size: 15px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+.ot3 {
+    font-family: sans-serif;
+    color: rgb(80, 80, 80);
+    width: 93px;
+    height: 36px;
+    font-size: 14px;
+    position: relative;
+    top: 45px;
+    left: 250px;
+}
+.palka4 {
+    width: 320px;
+    height: 0.1px;
+    border:0.1px solid rgb(214, 214, 214);
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+.part11 {
+    background: rgb(0,0,0);
+    background:  url("aa.png") center center no-repeat;
+    background-size: cover;
+    height: 330px;
+}
+.part111 {
+    background: rgb(0,0,0);
+    background:  url("aaa.png") center center no-repeat;
+    background-size: cover;
+    height: 330px;
+}
+.vubor {
+    width: 1250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    left: 300px;
+}
+.os6 {
+    background: rgb(243, 243, 243);
+    height:780px;
+    width: auto;
+}
+.aftung {
+    width: 700px;
+    font-size: 56px;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: relative;
+    left: 270px;
+    top: 100px;
+}
+.palka32 {
+    width: 550px;
+    height: 1px;
+    border:1px solid rgb(97, 97, 97);
+    position: relative;
+    top: 60px;
+    left: 860px;
+}
+.all2 {
+    width: 160px;
+    height: 55px;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: grey;
+    transition: 0.7s;
+    position: relative;
+    top: 35px;
+    left: 1450px;
+}
+.all2:hover {
+    cursor: pointer;
+    border: transparent;
+    color: white;
+    background: grey;
+    -webkit-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 72px 9px rgba(0, 0, 0, 0.22);
+    transform: scale(1.1);
+}
+.mini {
+    position: relative;
+    left: -1px;
+    top: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 160px;
+}
+.kalendar {
+    background: url("w.png") center center no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.kalendar:hover {
+    transform: scale(1.2);
+    background: url("wwe.png") center center no-repeat;
+    background-size: cover;
+}
+.march {
+    color: rgb(177, 177, 177);
+    font-size: 19px;
+}
+.winte {
+    position: relative;
+    left: 0.5px;
+    top: 25px;
+    color: rgb(94, 94, 94);
+    font-size: 22px;
+    font-family: sans-serif;
+    width: 200px;
+}
+.pod:hover {
+    color: indianred;
+    border-bottom: 2px indianred solid;
+    transform: scale(1.1);
+}
+.news {
+    position: relative;
+    top: 150px;
+    left: 270px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pod {
+    position: relative;
+    top: 45px;
+    color: grey;
+    display: table;
+    text-decoration: none; 
+    border-bottom: 2px grey solid;
+    line-height: 31px;
+    transition: 0.3s;
+}
+.strelka {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 1700px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.strelka:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 59px -13px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 59px -13px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 59px -13px rgba(0, 0, 0, 0.2);
+}
+.strelka1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 350px;
+    left: 132px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.strelka1:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 59px -13px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 59px -13px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 59px -13px rgba(0, 0, 0, 0.2);
+}
+.os7 {
+    height: 330px;
+    width: auto;
+    background: #DD4053;
+}
+.travel {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 90px;
+    left: 300px;
+    width: 600px;
+}
+.ema {
+    border: 1px solid white;
+    width: 410px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.26);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 12px 15px;
+}
+.email {
+    width: 700px;
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+.iam {
+    width: 320px;
+    color: white;
+    font-size: 23px;
+    position: relative;
+    top: 68px;
+    left: 760px;
+    display: flex;
+    justify-content: space-around;
+}
+.ioi {
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+.podpi {
+    font-family: sans-serif;
+    color: rgb(231, 231, 231);
+    width: 450px;
+    font-size: 21px;
+    position: relative;
+    left: 1100px;
+    top: 50px;
+}
+.otpravit {
+    color: #DD4053;
+    background: white;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+    left: 1150px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.otpravit:hover {
+    border: 3px solid white;
+    background: #DD4053;
+    color: white;
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 60px 11px rgba(255, 255, 255, 0.22);
+    -moz-box-shadow: 0px 0px 60px 11px rgba(255, 255, 255, 0.22);
+    box-shadow: 0px 0px 60px 11px rgba(255, 255, 255, 0.22);
+}
+
+.os81 {
+    height: 1400px;
+    background: rgba(233, 233, 233, 0.596);
+}
+.wh {
+    width: 1200px;
+    font-size: 46px;
+    font-family: fantasy;
+    font-weight: 50;
+    line-height: 65px;
+    position: relative;
+    left: 300px;
+    top: 80px;
+}
+.bl4 {
+    width: 700px;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+.bl41 {
+    width: 700px;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: -1000px;
+    left: 1000px;
+}
+.bl {
+    width: 600px;
+    height: 220px;
+    background: white;
+    transition: 0.5s;
+}
+.bl:hover {
+    border-left: 4px solid red;
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 53px -7px rgba(0, 0, 0, 0.44);
+-moz-box-shadow: 0px 0px 53px -7px rgba(0, 0, 0, 0.44);
+box-shadow: 0px 0px 53px -7px rgba(0, 0, 0, 0.44);
+}
+.galchka {
+    background: url("gr.png") center center no-repeat;
+    border: 2px solid rgb(185, 185, 185);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 530px;
+    top: -50px;
+    transition: 0.5s;
+}
+.galchka:hover {
+    border: 2px solid #DD4053;
+    transform: scale(1.1);
+}
+.galchka2 {
+    background: url("gr.png") center center no-repeat;
+    border: 2px solid rgb(185, 185, 185);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 530px;
+    top: -20px;
+    transition: 0.5s;
+}
+.galchka2:hover {
+    border: 2px solid #DD4053;
+    transform: scale(1.1);
+}
+.galchka1 {
+    background: url("gr.png") center center no-repeat;
+    border: 2px solid rgb(185, 185, 185);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -50px;
+    left: 530px;
+    transition: 0.5s;
+}
+.galchka1:hover {
+    border: 2px solid #DD4053;
+    transform: scale(1.1);
+}
+.galchka3 {
+    background: url("gr.png") center center no-repeat;
+    border: 2px solid rgb(185, 185, 185);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -80px;
+    left: 530px;
+    transition: 0.5s;
+}
+.galchka3:hover {
+    border: 2px solid #DD4053;
+    transform: scale(1.1);
+}
+.galchka4 {
+    background: url("gr.png") center center no-repeat;
+    border: 2px solid rgb(185, 185, 185);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -110px;
+    left: 530px;
+    transition: 0.5s;
+}
+.galchka4:hover {
+    border: 2px solid #DD4053;
+    transform: scale(1.1);
+}
+.text6 {
+    color: rgb(88, 88, 88);
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 430px;
+    position: relative;
+    left: 50px;
+    top: 35px;
+    line-height: 1.5;
+}
+.text61 {
+    color: black;
+    font-weight: 600;
+}
+.os8 {
+    background: url("r.png") center center no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 600px;
+}
+.you {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    width: 550px;
+    position: relative;
+    top: 130px;
+    left: 200px;
+}
+.foryou {
+    width: 800px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    position: relative;
+    top: 180px;
+    left: 200px;
+}
+.know1 {
+    color: grey;
+    background: white;
+    width: 290px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 250px;
+    left: 200px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.know1:hover {
+    border: 3px solid white;
+    color: white;
+    background: transparent;
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 64px 6px rgba(255, 255, 255, 0.28);
+    -moz-box-shadow: 0px 0px 64px 6px rgba(255, 255, 255, 0.28);
+    box-shadow: 0px 0px 64px 6px rgba(255, 255, 255, 0.28);
+}
+.offer {
+    position: relative;
+    top: -120px;
+    left: 1000px;
+    width: 300px;
+    transition: 1.6s;
+}
+.offer:hover {
+    transform: scale(1.1);
+}
+.os9 {
+    background: #F8F8F8;
+    height: 700px;
+}
+.we {
+    color: rgb(70, 70, 70);
+    width: 400px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 100px;
+    left: 250px;
+    line-height: 1.3;
+}
+.nala {
+    font-size: 25px;
+    color: rgb(158, 158, 158);
+    font-family: sans-serif;
+    width: 480px;
+    position: relative;
+    top: -150px;
+    left: 1090px;
+    line-height: 1.4;
+}
+.this {
+    line-height: 1.4;
+    font-size: 25px;
+    color: rgb(158, 158, 158);
+    font-family: sans-serif;
+    width: 560px;
+    position: relative;
+    left: 1090px;
+    top: -125px;
+}
+.grphoto {
+    background: white;
+    width: 1300px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -50px;
+    left: 305px;
+}
+.mais {
+    width: 220px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+.mais:hover {
+    border-top: 7px solid red;
+}
+.palka123 {
+    width: 1px;
+    height: 200px;
+    border:1px solid rgb(226, 226, 226);
+}
+.os13 {
+    position: relative;
+    top: -400px;
+    height: 1700px;
+}
+.right {
+    width: 170px;
+    position: relative;
+    left: 1615px;
+    top: 400px;
+}
+.right2 {
+    width: 150px;
+    position: relative;
+    top: 315px;
+    left: 1430px;
+}
+.text {
+    width: 400px;
+    position: relative;
+    top: 380px;
+    left: 120px;
+}
+.left {
+    width: 300px;
+    position: relative;
+    top: 410px;
+    left: 3px;
+}
+.left2 {
+    width: 400px;
+    position: relative;
+    top: 410px;
+    left: 55px;
+}
+.chil {
+    width: 1200px;
+    font-size: 46px;
+    font-family: fantasy;
+    font-weight: 50;
+    line-height: 65px;
+    position: relative;
+    left: 120px;
+    top: 180px;
+}
+.spez {
+    color:#DD4053;
+    position: relative;
+    left: 1320px;
+    top: 100px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    width: 230px;
+}
+.strong {
+    color:#DD4053;
+    font-weight: 600;
+}
+.boloks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1740px;
+    position: relative;
+    left: 90px;
+    top: 320px;
+}
+.bolok {
+    background: rgba(221, 221, 221, 0.329);
+    width: 380px;
+    height: 250px;
+    transition: 0.6s;
+}
+.bolok:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 68px -18px rgba(34, 60, 80, 0.32);
+    -moz-box-shadow: 0px 0px 68px -18px rgba(34, 60, 80, 0.32);
+    box-shadow: 0px 0px 68px -18px rgba(34, 60, 80, 0.32);
+}
+.flag {
+    position: relative;
+    top: -80px;
+    left: 50px;
+}
+.strana {
+    width: 150px;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: -120px;
+    left: 140px;
+}
+.know2 {
+    border: 3px solid grey;
+    color: grey;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 265px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -80px;
+    left: 55px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.know2:hover {
+    background: grey;
+    color: white;
+    border: transparent;
+    transform: scale(1.03);
+}
+.sug2 {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 22px;
+    width: 640px;
+    position: relative;
+    top: 450px;
+    left: 120px;
+}
+.another {
+    color: #DD4053;
+    text-decoration: none;
+    border-bottom: 2px #DD4053 solid;
+    transition: 0.6s;
+}
+.another:hover {
+    color: red;
+}
+.ramka1 {
+    border: 2px solid rgb(179, 179, 179);
+    width: 935px;
+    height: 150px;
+    position: relative;
+    top: 390px;
+    left: 870px;
+    padding: 40px 0 30px 80px;
+    transition: 0.7s;
+}
+.ramka1:hover {
+    transform: scale(1.04);
+}
+.osta {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    width: 720px;
+}
+.otdux {
+    font-weight: 700;
+}
+.os10 {
+    position: relative;
+    height: 0px;
+    top: -300px;
+}
+.fon {
+    background: rgba(247, 247, 247, 0.329);
+    height: 890px;
+    width: auto;
+}
+.trwith {
+    color: rgb(71, 71, 71);
+    font-size: 60px;
+    width: 700px;
+    line-height: 1.3;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.po {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 650px;
+    line-height: 1.4;
+    color: rgb(48, 48, 48);
+    position: relative;
+    top: -42px;
+    left: 1000px;
+}
+.ama {
+    border: 1px solid grey;
+    width: 520px;
+    height: 55px;
+    background: rgba(255, 255, 255, 0.26);
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    padding: 12px 15px;
+    position: relative;
+    top: 75px;
+    left: 200px;
+}
+.otpra {
+    color: white;
+    background: #DD4053;
+    width: 350px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: -20px;
+    left: 1270px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.otpra:hover {
+    background: transparent;
+    color: #DD4053;
+    border: 3px solid #DD4053;
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 63px -9px rgba(212, 53, 53, 0.39);
+    -moz-box-shadow: 0px 0px 63px -9px rgba(212, 53, 53, 0.39);
+    box-shadow: 0px 0px 63px -9px rgba(212, 53, 53, 0.39);
+}
+.x {
+    background: url(x.png) center center no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 110px;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    transition: 0.7s;
+}
+.x:hover {
+    transform: scale(1.2);
+}
+.spisok {
+    color: rgb(110, 110, 110);
+    font-weight:400;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    left: 600px;
+    top: 40px;
+    width: 200px;
+}
+.spisok2 {
+    color: rgb(110, 110, 110);
+    font-weight:400;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    left: 870px;
+    top: -85px;
+    width: 200px;
+}
+.rezum {
+    font-size: 15px;
+    color: rgb(199, 199, 199);
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: -170px;
+    left: 1100px;
+    width: 200px;
+}
+.raspisanie {
+    width: 200px;
+    color: rgb(110, 110, 110);
+    font-weight:600;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    top: -150px;
+    left: 1100px;
+}
+.zvoni {
+    width: 300px;
+    color: rgb(110, 110, 110);
+    font-weight:600;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.8;
+    position: relative;
+    top: -220px;
+    left: 1430px;
+}
+.kontakt {
+    width: 200px;
+    font-size: 16px;
+    color: rgb(199, 199, 199);
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: -200px;
+    left: 1430px;
+}
+.palka1234 {
+    width: 1430px;
+    height: 0.1px;
+    border:0.1px solid rgb(214, 214, 214);
+    position: relative;
+    top: -130px;
+    left: 200px;
+}
+.twozero {
+    width: 400px;
+    font-size: 17px;
+    color: rgb(199, 199, 199);
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: -95px;
+    left: 200px;
+}
+.label {
+    width: 130px;
+    position: relative;
+    top: -120px;
+    left: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.iam1 {
+    width: 400px;
+    color: rgb(88, 88, 88);
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+.ioi1 {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.xxxx {
+    transition: 0.8s;
+    background: url("2.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 18px;
+}
+.xxxx:hover{
+    background: url("22.jpg") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.xx {
+    background: url("Vector.png") center center no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 25px;
+    transition: 0.8s;
+}
+.xx:hover {
+    background: url("1122.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+}
+.xxx {
+    background: url("instagram (1) 1.png") center center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    transition: 0.8s
+}
+.xxx:hover {
+    width: 27px;
+    height: 27px;
+    background: url("aqq.png") center center no-repeat;
+    background-size: cover;
+    transform: scale(1.4);
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover {
+    color: black;
+}
